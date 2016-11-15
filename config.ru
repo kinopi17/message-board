@@ -4,6 +4,6 @@ require ::File.expand_path('../config/environment', __FILE__)
 run Rails.application
 
 Rails.application.routes.draw do
-    get 'messages/index'
+    get 'messages#index'
 end
 
