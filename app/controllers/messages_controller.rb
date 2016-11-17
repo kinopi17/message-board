@@ -10,6 +10,7 @@ class MessagesController < ApplicationController
     else
        render 'edit'
     end
+    
   end  
   
   def destroy
